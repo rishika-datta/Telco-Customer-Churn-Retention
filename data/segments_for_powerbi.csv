@@ -1,0 +1,13 @@
+Segment,Customers,Churned,Active customers,Churn rate,Est annual revenue at risk,Share of total risk,CLV per active customer,Break-even save rate,Priority
+Month-to-month / 1) 0-12 months,1994,1024,970,0.5135,294475.0,0.3712,378.89,0.2471,Priority 1
+Month-to-month / 2) 13-24 months,737,278,459,0.3772,131724.0,0.166,600.62,0.2613,Priority 1
+Month-to-month / 3) 25-48 months,802,264,538,0.3292,151476.0,0.1909,729.94,0.2664,Priority 1
+Month-to-month / 4) 49+ months,342,89,253,0.2602,66248.0,0.0835,963.58,0.2864,Monitor
+One year / 1) 0-12 months,124,13,111,0.1048,4763.0,0.006,514.02,1.7478,Monitor
+One year / 2) 13-24 months,197,16,181,0.0812,7543.0,0.0095,672.18,1.7996,Monitor
+One year / 3) 25-48 months,518,55,463,0.1062,35130.0,0.0443,895.28,0.9885,Monitor
+One year / 4) 49+ months,634,82,552,0.1293,66118.0,0.0833,1113.46,0.6262,Monitor
+Two year / 1) 0-12 months,68,0,68,0.0,0.0,0.0,563.09,,Too small to act on
+Two year / 2) 13-24 months,90,0,90,0.0,0.0,0.0,587.84,,Too small to act on
+Two year / 3) 25-48 months,274,6,268,0.0219,3078.0,0.0039,764.3,6.5312,Monitor
+Two year / 4) 49+ months,1263,42,1221,0.0333,32769.0,0.0413,1152.36,2.7946,Monitor

@@ -1,0 +1,46 @@
+Test,Check,Recalculated,Expected in guide,Result
+UAT-01,total,7043,7043,MATCH
+UAT-01,churned,1869,1869,MATCH
+UAT-01,retained,5174,5174,MATCH
+UAT-01,churn %,26.54,26.54,MATCH
+UAT-03,Month-to-month,42.71,42.71,MATCH
+UAT-03,One year,11.27,11.27,MATCH
+UAT-03,Two year,2.83,2.83,MATCH
+UAT-04,1) 0-12 months,47.44,47.44,MATCH
+UAT-04,2) 13-24 months,28.71,28.71,MATCH
+UAT-04,3) 25-48 months,20.39,20.39,MATCH
+UAT-04,4) 49+ months,9.51,9.51,MATCH
+UAT-05,1) Under 35,10.86,10.86,MATCH
+UAT-05,2) 35 to 69.99,23.65,23.65,MATCH
+UAT-05,3) 70 to 89.99,37.95,37.95,MATCH
+UAT-05,4) 90 and above,32.86,32.86,MATCH
+UAT-06,Electronic check,45.29,45.29,MATCH
+UAT-06,Mailed check,19.11,19.11,MATCH
+UAT-06,Bank transfer (automatic),16.71,16.71,MATCH
+UAT-06,Credit card (automatic),15.24,15.24,MATCH
+UAT-07,M2M customers,3875,3875,MATCH
+UAT-07,M2M churned,1655,1655,MATCH
+UAT-07,M2M churn %,42.71,42.71,MATCH
+UAT-09,M2M 0-12 churn %,51.35,51.35,MATCH
+UAT-09,M2M 0-12 customers,1994,1994,MATCH
+UAT-10,Two year / 1) 0-12 months has 68 customers (<100),68,<100,FLAGGED AS EXPECTED
+UAT-10,Two year / 2) 13-24 months has 90 customers (<100),90,<100,FLAGGED AS EXPECTED
+UAT-13,churned monthly revenue,139130.85,139130.85,MATCH
+UAT-12,Active monthly revenue,316985.75,316985.75,MATCH
+UAT-12,est annual RAR (independent),793323.0,793323,MATCH
+UAT-11,Month-to-month / 1) 0-12 months,Priority 1,Priority 1,MATCH
+UAT-11,Month-to-month / 2) 13-24 months,Priority 1,Priority 1,MATCH
+UAT-11,Month-to-month / 3) 25-48 months,Priority 1,Priority 1,MATCH
+UAT-11,Two year / 1) 0-12 months,Too small to act on,Too small to act on,MATCH
+UAT-11,Two year / 2) 13-24 months,Too small to act on,Too small to act on,MATCH
+UAT-14,CLV M2M 0-12,378.89,378.89,MATCH
+UAT-14,CLV Two year 49+,1152.36,1152.36,MATCH
+UAT-15/16,net benefit at 20%,-12796.0,-12796,MATCH
+UAT-15/16,ROI at 20%,-0.217,-0.217,MATCH
+UAT-15/16,net benefit at 30%,10311.0,10311,MATCH
+UAT-15/16,ROI at 30%,0.175,0.175,MATCH
+UAT-15,targets,1967,1967,MATCH
+UAT-15,cost,59010,59010,MATCH
+UAT-15,Excel base net benefit,-12796.0,-12796,MATCH
+UAT-17,Excel breakeven at 15 CU,12.8,12.8,MATCH
+UAT-17,Excel breakeven at 30 CU,25.5,25.5,MATCH
